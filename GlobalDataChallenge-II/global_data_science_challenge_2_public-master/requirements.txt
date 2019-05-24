@@ -1,0 +1,17 @@
+datetime
+django-bootstrap-toolkit
+django-crispy-forms
+django>=2.1.5
+graphviz
+ipywidgets
+jupyter
+matplotlib
+nose
+numpy
+pandas
+pysqlite3
+pycountry
+shap
+sklearn
+xgboost
+xlrd
