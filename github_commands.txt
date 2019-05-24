@@ -1,0 +1,29 @@
+  
+$ ssh-keygen -t ed25519 -C "harshavardhan.vasala@capgemin... 
+$ ssh-keygen -t ed25519 -C "harshavardhan.vasala@capgemini.com"		//generate ssh
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/c/Users/hvasala/.ssh/id_ed25519):
+Created directory '/c/Users/hvasala/.ssh'.
+Enter passphrase (empty for no passphrase):
+
+
+Enter same passphrase again:
+Your identification has been saved in /c/Users/hvasala/.ssh/id_ed25519.
+Your public key has been saved in /c/Users/hvasala/.ssh/id_ed25519.pub.
+The key fingerprint is:
+SHA256:tDBOosjdLLRWkBGmi4Lq7anBbUssuM4M/CCVkLhwSRI harshavardhan.vasala@capgemini.com
+The key's randomart image is:
+
+
+Commands:
+git checkout -b harsha			//shift to branch harsha
+git add .				//add all changes
+git commit -m "first commit"		//commit (-m stands to give a msg when committing). 
+git push --set-upstream origin harsha	//commit to branch harsha
+
+git log					//generate log of all transactions
+
+
+ 
+ 
+git push --set-upstream origin master
